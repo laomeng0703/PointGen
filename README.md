@@ -9,7 +9,7 @@ We improved the feature extraction module in the original paper, which improved 
 
 Modified the model according to my personal thoughts. The feature extraction part uses dgcnn.
 
-The final result tested on the ModelNet40 dataset is about 0.3% higher than the original paper, and about 1.5% higher than the original PointNet.
+The final result tested on the ModelNet40 dataset is about 0.3% higher than the paper, and about 1.5% higher than the original PointNet.
 
 ![Results](pic/results_of_MN40.png)
 
