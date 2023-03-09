@@ -3,6 +3,9 @@ Work in progress.
 
 The main idea comes from [this](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_PointAugment_An_Auto-Augmentation_Framework_for_Point_Cloud_Classification_CVPR_2020_paper.pdf)
 
+We improved the feature extraction module in the original paper, which improved the classification accuracy of the classifier.
+
+
 Modified the model according to my personal thoughts. The feature extraction part uses dgcnn, and a new augmentation module is added to make the point cloud data more variable.
 Please look forward to the completion of the paper.
 
