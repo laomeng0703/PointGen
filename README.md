@@ -5,8 +5,14 @@ The main idea comes from [this](https://openaccess.thecvf.com/content_CVPR_2020/
 
 We improved the feature extraction module in the original paper, which improved the classification accuracy of the classifier.
 
+![Architecture](pic/architecture.png)
 
-Modified the model according to my personal thoughts. The feature extraction part uses dgcnn, and a new augmentation module is added to make the point cloud data more variable.
+Modified the model according to my personal thoughts. The feature extraction part uses dgcnn.
+
+The final result tested on the ModelNet40 dataset is about 0.3% higher than the original paper, and about 1.5% higher than the original PointNet.
+
+![Results](pic/results.png)
+
 Please look forward to the completion of the paper.
 
 ### Dependencies
