@@ -5,7 +5,7 @@ The main idea comes from [this](https://openaccess.thecvf.com/content_CVPR_2020/
 
 We improved the feature extraction module in the original paper, which improved the classification accuracy of the classifier.
 
-![Architecture](pic/architecture.png)
+![Architecture](pic/Architecture_of_PointGen.png)
 
 Modified the model according to my personal thoughts. The feature extraction part uses dgcnn.
 
