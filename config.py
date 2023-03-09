@@ -35,36 +35,7 @@ parser.add_argument('--restore', action='store_true')
 parser.add_argument('--generator', action='store_true', default=True, help='Use new generator')
 
 # Training settings
-# parser = argparse.ArgumentParser(description='Point Cloud Recognition')
-# parser.add_argument('--exp_name', type=str, default='exp_PointWOLF', metavar='N',
-#                     help='Name of the experiment')
-# parser.add_argument('--model', type=str, default='dgcnn', metavar='N',
-#                     choices=['pointnet', 'dgcnn'],
-#                     help='Model to use, [pointnet, dgcnn]')
-# parser.add_argument('--dataset', type=str, default='modelnet40', metavar='N',
-#                     choices=['modelnet40'])
-# parser.add_argument('--batch_size', type=int, default=32, metavar='batch_size',
-#                     help='Size of batch)')
-# parser.add_argument('--test_batch_size', type=int, default=16, metavar='batch_size',
-#                     help='Size of batch)')
-# parser.add_argument('--epochs', type=int, default=250, metavar='N',
-#                     help='number of episode to train ')
-# parser.add_argument('--use_sgd', type=bool, default=True,
-#                     help='Use SGD')
-# parser.add_argument('--lr', type=float, default=0.001, metavar='LR',
-#                     help='learning rate (default: 0.001, 0.1 if using sgd)')
-# parser.add_argument('--momentum', type=float, default=0.9, metavar='M',
-#                     help='SGD momentum (default: 0.9)')
-# parser.add_argument('--no_cuda', type=bool, default=False,
-#                     help='enables CUDA training')
-# parser.add_argument('--seed', type=int, default=1, metavar='S',
-#                     help='random seed (default: 1)')
-# parser.add_argument('--eval', type=bool, default=False,
-#                     help='evaluate the model')
-# parser.add_argument('--num_points', type=int, default=1024,
-#                     help='num of points to use')
-# parser.add_argument('--dropout', type=float, default=0.5,
-#                     help='dropout rate')
+
 parser.add_argument('--emb_dims', type=int, default=1024, metavar='N',
                     help='Dimension of embeddings')
 parser.add_argument('--k', type=int, default=20, metavar='N',
