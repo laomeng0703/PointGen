@@ -11,7 +11,7 @@ Modified the model according to my personal thoughts. The feature extraction par
 
 The final result tested on the ModelNet40 dataset is about 0.3% higher than the original paper, and about 1.5% higher than the original PointNet.
 
-![Results](pic/results.png)
+![Results](pic/results_of_MN40.png)
 
 Please look forward to the completion of the paper.
 
